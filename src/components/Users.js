@@ -6,7 +6,8 @@ class Users extends Component {
     return (
       <div>
         <ul>
-          Users!
+          <p>Users!</p>
+          
           <li>User Name: {this.props.users.username}</li>
           <li>Count: {this.props.users.length} </li>
         </ul>
