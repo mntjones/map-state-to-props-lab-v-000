@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// add this line
+// add this line to use connect component
 import { connect } from 'react-redux'; 
 
 class Users extends Component {
@@ -17,9 +17,10 @@ class Users extends Component {
   }
 }
 
-//add mapStateToProps here
+//add mapStateToProps here - sends both users and usercount
 const mapStateToProps = (state) => {
   return { users: state.users, userCount: state.users.length }
 }
 
+// use connect here
 export default connect(mapStateToProps)(Users);
