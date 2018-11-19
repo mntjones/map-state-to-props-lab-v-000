@@ -7,7 +7,7 @@ class Users extends Component {
       <div>
         <ul>
           <p>Users!</p>
-          User Name: {this.props.users.map(user => <li></li>)}
+          User Name: {this.props.users.map(user => <li>user.username</li>)}
           <li>Count: {this.props.users} </li>
         </ul>
       </div>
