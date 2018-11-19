@@ -7,6 +7,8 @@ class Users extends Component {
       <div>
         <ul>
           Users!
+          <li>User Name: </li>
+          <li>Count: </li>
         </ul>
       </div>
     )
