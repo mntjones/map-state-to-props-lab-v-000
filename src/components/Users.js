@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import
+import { connect } from 'react-redux';
 
 class Users extends Component {
 
